@@ -67,7 +67,7 @@ static int procmgmt(void *unused)
 	init_filename = "/usr/bin/python";
 	argv_init[0] = init_filename;
 	// argv_init[1] = "/root/ys/models-1.4.0/official/resnet/cifar10_main.py";
-	argv_init[1] = "usr/tf.py";
+	argv_init[1] = "/root/tf.py";
 #endif
 
 	/*
