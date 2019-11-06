@@ -39,15 +39,16 @@ struct fit_machine_info *lego_cluster[CONFIG_FIT_NR_NODES];
  * raw numbers.
  */
 static const char *lego_cluster_hostnames[CONFIG_FIT_NR_NODES] = {
-	[0]	=	"wuklab00",
-	[1]	=	"wuklab01",
+	[0]	=	"proj5",
+	[1]	=	"proj6",
+	[2]	=	"proj7",
 };
 
 static struct fit_machine_info WUKLAB_CLUSTER[] = {
-[0]	= {	.hostname =	"wuklab00",	.lid =	2,	},
-[1]	= {	.hostname =	"wuklab01",	.lid =	6,	},
-[2]	= {	.hostname =	"wuklab02",	.lid =	8,	},
-[3]	= {	.hostname =	"wuklab03",	.lid =	9,	},
+[0]	= {	.hostname =	"proj5",	.lid =	51,	},
+[1]	= {	.hostname =	"proj6",	.lid =	49,	},
+[2]	= {	.hostname =	"proj7",	.lid =	50,	},
+/*[3]	= {	.hostname =	"wuklab03",	.lid =	9,	},
 [4]	= {	.hostname =	"wuklab04",	.lid =	7,	},
 [5]	= {	.hostname =	"wuklab05",	.lid =	3,	},
 [6]	= {	.hostname =	"wuklab06",	.lid =	5,	},
@@ -69,7 +70,7 @@ static struct fit_machine_info WUKLAB_CLUSTER[] = {
 [22]	= {	.hostname =	"wuklab22",	.lid =	29,	},
 [23]	= {	.hostname =	"wuklab23",	.lid =	30,	},
 [24]	= {	.hostname =	"wuklab24",	.lid =	31,	},
-[25]	= {	.hostname =	"wuklab25",	.lid =	26,	},
+[25]	= {	.hostname =	"wuklab25",	.lid =	26,	},*/
 };
 
 /* Indicate machines that are used by lego */
